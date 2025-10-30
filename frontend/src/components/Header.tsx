@@ -1,5 +1,6 @@
 import { Search, Bell, Menu } from "lucide-react";
 import { Input } from "@/components/ui/input";
+import logo from "@/assets/logo.svg";
 
 interface HeaderProps {
   userName?: string;
@@ -13,7 +14,7 @@ const Header = ({ userName = "Rajesh" }: HeaderProps) => {
           <button className="lg:hidden">
             <Menu className="h-6 w-6" />
           </button>
-          <img src="/logo.png" alt="Estetica" className="h-8 w-auto" />
+          <img src={logo} alt="Estetica" className="h-8 w-auto" />
         </div>
 
         <div className="flex-1 max-w-md mx-8 hidden md:block">
