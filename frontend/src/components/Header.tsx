@@ -13,7 +13,7 @@ const Header = ({ userName = "Rajesh" }: HeaderProps) => {
           <button className="lg:hidden">
             <Menu className="h-6 w-6" />
           </button>
-          <h1 className="text-2xl font-semibold text-accent">Estetica</h1>
+          <img src="/logo.png" alt="Estetica" className="h-8 w-auto" />
         </div>
 
         <div className="flex-1 max-w-md mx-8 hidden md:block">

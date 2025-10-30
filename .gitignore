@@ -22,3 +22,18 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Environment files
+.env
+frontend/.env
+server/.env
+
+# Vite cache
+.vite/
+
+# Build outputs
+frontend/dist
+server/dist
+
+# Bun lockfile (ignore if not using Bun)
+frontend/bun.lockb
